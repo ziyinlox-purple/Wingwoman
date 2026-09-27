@@ -6,9 +6,6 @@ on:
       - main
   pull_request:
 
-env:
-  COREPACK_ENABLE_PROJECT_SPEC: "0"
-
 jobs:
   validate:
     runs-on: ubuntu-latest
